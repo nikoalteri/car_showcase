@@ -1,3 +1,4 @@
+import { CustomFilter } from "@/components";
 import { MouseEventHandler } from "react";
 
 export interface CustomButtonProps {
@@ -8,6 +9,10 @@ export interface CustomButtonProps {
     textStyles?: string;
     rightIcon?: string;
     //isDisabled: boolean;
+}
+
+export interface CustomFilterProps {
+  title: string;
 }
 
 export interface SearchManufacturerProps {
